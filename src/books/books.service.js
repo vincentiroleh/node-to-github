@@ -6,7 +6,7 @@ const BookService = {
         try {
             res.status(200).json({
 
-                status: "sucess",
+                status: "success",
                 data: "Welcome to the baby steps to APIs"
             })
         } catch (error) {
@@ -20,7 +20,7 @@ const BookService = {
     async getBooks(req, res) {
         try {
             res.status(200).json({
-                status: "sucess",
+                status: "success",
                 data: Books
             })
         } catch (error) {
