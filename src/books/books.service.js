@@ -7,7 +7,11 @@ const BookService = {
             res.status(200).json({
 
                 status: "success",
-                data: "Welcome to the baby steps to APIs"
+                message: "Welcome to the baby steps to APIs",
+                resources: {
+                    books: "/books",
+                    book: "/book/id"
+                }
             })
         } catch (error) {
             res.json({
